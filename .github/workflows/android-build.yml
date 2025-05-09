@@ -23,7 +23,7 @@ jobs:
         run: ./gradlew build
 
       - name: Upload APK
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@3fdb8c8fd00bd66f9623e13d2a46a6f7c2b8b60c
         with:
           name: app-release.apk
           path: app/build/outputs/apk/release/app-release.apk
